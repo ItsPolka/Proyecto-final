@@ -1,33 +1,36 @@
 body{
-    background-color: #A1EAD1;
+    background-image: url(Imagen_de_Alejandro.jpeg);
+    background-size: cover;
 }
 .Centrado{
-    width: 310px;
-    margin: 0 auto;
+    position: relative ;
+    left: 420px;
 }
 #titulo{
-    display: inline-block;
     font-family:serif,"Times New Roman";
     font-style: normal;
-    font-weight: 800px;
-    font-size: 100px;
+    font-size: 70px;
 }
 #Nombres{
-    font-family: fantasy,"Cottonwood";
+  font-family: fantasy,"Cottonwood";
   font-style: oblique;
   font-weight: 200;
+  margin: 2px 380px;
+  font-size: x-large;
 
 }
 .links{
-    font-family: Arial, Helvetica, sans-serif;
+   font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
-    font-size: 50px;
+    font-size: 30px;
+    text-align: left;
+    margin: 2px 50px;
 }
 a:link{
     color: #25261F;
 }
 a:visited{
-color: #A3A646;
+color: #e76d1b;
 }
 a:hover{
 color: #D9B07E;
