@@ -5,9 +5,10 @@ body{
     width: 500px;
     margin: 0 auto;
     text-shadow: 3px 4px 3px blueviolet;
+    margin: auto;
 }
 #titulo{
-    display: inline-block;
+    display: inline-flex;
     font-family:serif,"Times New Roman";
     font-style: normal;
     font-weight: 800px;
@@ -16,42 +17,56 @@ body{
 .Texto_obesidad{
     font-family: "Playfair Display", sans-serif;
     text-align: justify;
-    text-align: left;
     margin: 15px 30px 15px 30px;
     height: 500px;
     float: left;
 }
 .Texto_M{
     font-family: "Playfair Display", sans-serif;
+    margin: 15px 50px 15px 50px;
+    padding: 20px;  
     text-align: right;
-    margin: 15px 30px 15px 30px;
-    height: 200px;
-    float: right;
+
 }
 .Texto_N{
     font-family: "Playfair Display", sans-serif;
-    text-align: right;
     margin: 15px 30px 15px 30px;
+    padding: 35px;
     height: 200px;
-    float: right;
+    margin: auto;
+    
 }
 .Texto_T{
     font-family: "Playfair Display", sans-serif;
-    text-align: right;
     margin: 15px 30px 15px 30px;
     height: 200px;
     float: center;
+    text-align: center;
+
 }
 #subtitulo_1{
     font-family: 'Playfair Display', serif;
 }
 #subtitulo{
     font-family: 'Playfair Display', serif;
-    text-align: center;
+    text-align: right;
+    margin: auto;
+    width: 500px;
+    height: 50px;
+
 }
 #subtitulo_2{
     font-family: 'Playfair Display', serif;
-    text-align: right;
+    text-align: left;
+    width: 500px;
+    height: 50px;
+}
+#subtitulo_3{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    margin: auto;
+    width: 500px;
+    height: 50px;
 }
 .IMAGEN{
     float: top;
