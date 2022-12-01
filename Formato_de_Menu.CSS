@@ -4,12 +4,12 @@ body{
 }
 .Centrado{
     position: relative ;
-    left: 420px;
+    left: 700px;
 }
 #titulo{
     font-family:serif,"Times New Roman";
     font-style: normal;
-    font-size: 70px;
+    font-size: 130px;
 }
 #Nombres{
   font-family: fantasy,"Cottonwood";
@@ -22,7 +22,7 @@ body{
 .links{
    font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
-    font-size: 30px;
+    font-size: 70px;
     text-align: left;
     margin: 2px 50px;
 }
